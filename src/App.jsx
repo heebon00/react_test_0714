@@ -1,6 +1,6 @@
 import Child from "./Child";
 import Member from "./Member.jsx";
-import Picture from "./Picture.jsx";
+import "./style.css";
 
     function Name() {
         return <h1>App안에서 태어난 컴포넌트</h1>;
@@ -17,7 +17,8 @@ function App() {
         <Child></Child>
         <Child/>
         <Member/>
-        <Picture/>
+        <Member />
+    
       </> 
        );
 }
