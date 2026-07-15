@@ -1,5 +1,6 @@
 import Child from "./Child";
 import Member from "./Member.jsx";
+import List from "./List.jsx";
 import "./style.css";
 
     function Name() {
@@ -14,6 +15,7 @@ function App() {
     return (
         <>
         <Name/>
+        <List />
         <Child></Child>
         <Child/>
         <Member/>
